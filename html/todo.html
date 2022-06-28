@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="En-US">
+
+  <head>
+    <title>Todo list</title>
+    <meta charset="UTF-8">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/todo.css">
+  </head>
+  <body>
+    <div class="row">
+        <div class="col-6">
+          <h1>To-do List</h1>
+          <table class="input_table">
+            <tbody>
+              <tr>
+                <td>
+                  <input type="text" name="add_text" id="add_text" class="add_text">
+                </td>
+                <td>
+                  <input type="submit" name="submit" id="submit" class="submit" value="Add">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <h2> Task</h2>
+        <table class="output_table">
+          <tbody>
+            <!-- <tr>
+              <td></td>
+              <td>
+                <input type="button" value="done" id="done">
+                <input type="button" value="undone" id="undone">
+                <input type="button" value="delete" id="delete">
+              </td>
+              <td></td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script src="../js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="../js/todo.js"></script>
+  </body>
+</html>

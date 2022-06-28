@@ -1,0 +1,30 @@
+.input_table {
+    margin : 65px;
+  }
+
+h1,h2 {
+  text-align: center;
+}
+.input_table td{
+  border: solid black;
+  padding: 15px 10px 15px 10px;
+  text-align: center;
+}
+.output_table td{
+  border: solid black;
+  padding: 15px 60px 15px 60px;
+  text-align: center;
+}
+.output_table{
+  margin: 65px ;
+  
+}
+.done{
+  background-color: green;
+}
+.undone{
+  background-color:yellow;
+}
+.delete{
+  background-color: red;
+}
